@@ -9,6 +9,9 @@ build/
 # Test coverage / reports
 coverage/
 test-report/
+test-results/
+playwright-report/
+blob-report/
 
 # Environment variables
 .env

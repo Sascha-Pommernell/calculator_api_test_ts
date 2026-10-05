@@ -1,4 +1,19 @@
 {
+  "name": "calculator_api_test_ts",
+  "version": "1.0.0",
+  "description": "Black-box API tests (Playwright) for calculator_api_ts",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:prio-hoch": "playwright test --grep @prio-hoch",
+    "test:prio-mittel": "playwright test --grep @prio-mittel",
+    "typecheck": "tsc --noEmit",
+    "report": "playwright show-report"
+  },
   "dependencies": {
     "playwright": "^1.63.0"
   },
